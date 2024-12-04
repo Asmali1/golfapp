@@ -20,7 +20,7 @@ const Home = () => {
         state: '',
         zip: '',
     });
-    const [isSelected, setIsSelected] = useState([]);
+    const [setIsSelected] = useState([]);
     const [inventory, setInventory] = useState(location.state?.updatedInventory || []);
     const navigate = useNavigate();
 
